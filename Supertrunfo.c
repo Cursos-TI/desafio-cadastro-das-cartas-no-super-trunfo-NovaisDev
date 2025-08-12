@@ -26,7 +26,7 @@ int main() {
     scanf(" %19s", ccarta);
 
     printf("Digite o nome da sua cidade: ");
-    scanf(" %[^\n]", nomecidade);  // permite ler espaços no nome
+    scanf(" %[^\n]", nomecidade); 
 
     printf("Digite o numero de habitantes da sua cidade: ");
     scanf("%i", &populacao);
@@ -50,7 +50,7 @@ int main() {
     scanf(" %19s", ccarta2);
 
     printf("Digite o nome da sua cidade: ");
-    scanf(" %[^\n]", nomecidade2);  // permite ler espaços no nome
+    scanf(" %[^\n]", nomecidade2);  
 
     printf("Digite o numero de habitantes da sua cidade: ");
     scanf("%i", &populacao2);
